@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import Info from "./Info.jsx"
 import About from "./About.jsx"
 import Interest from "./Interest.jsx"
+import Footer from "./Footer.jsx"
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Interest />
       </main>
+      <Footer />
     </div>
   )
 }

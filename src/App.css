@@ -6,10 +6,12 @@
 }
 
 .App{
-  background-color: #23252C;
+  background-color: #1A1B21;
   width:317px;
+  border-radius: 10px;
   height: 780px;
-  outline: 3px solid white;
+  /* outline: 3px solid white; */
+  position: relative;
 
 }
 
@@ -24,4 +26,68 @@ main  h2 {
 
 main  p {
   margin-block: 2px 0;
+}
+
+
+/***************
+  INFO SECTION  
+ ***************/
+
+ #info {
+  width: 100%;
+  /* outline: 2px solid red; */
+}
+
+#info>p>a {
+  text-decoration: none;
+
+}
+
+#info>h1 {
+  margin-block: 20px 0;
+}
+
+#info>h3 {
+  margin-block: 2px 0;
+}
+
+#info>p {
+  margin-block: 6px 0;
+  text-align: center;
+}
+
+#info-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 13px 0px 13px;
+  gap: 8px;
+}
+
+.info--btn {
+  width: 115px;
+  height: 34px;
+}
+
+#profile_picture {
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+/*********
+  FOOTER 
+ **********/
+
+footer {
+  background: #161619;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer .contact-icon{
+  margin: 20px 12px;
 }

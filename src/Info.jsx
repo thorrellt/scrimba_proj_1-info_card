@@ -2,7 +2,6 @@ import { useState } from 'react'
 import profilePic from './assets/profile_pic.jpg'
 import linkedinBtn from './assets/btn-linkedin.png'
 import emailBtn from './assets/btn-email.png'
-import './Info.css'
 
 function Info() {
     return (
