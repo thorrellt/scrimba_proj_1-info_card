@@ -12,3 +12,16 @@
   outline: 3px solid white;
 
 }
+
+main {
+  margin-inline: 36px;
+  margin-block-start: 20px;
+}
+
+main  h2 {
+  margin-block: 12px 0;
+}
+
+main  p {
+  margin-block: 2px 0;
+}

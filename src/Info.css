@@ -1,6 +1,6 @@
 #info {
     width: 100%;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 #info>p>a {
@@ -18,6 +18,7 @@
 
 #info>p {
     margin-block: 6px 0;
+    text-align: center;
 }
 
 #info-btn-container {

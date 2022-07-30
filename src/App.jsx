@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Info from "./Info.jsx"
+import About from "./About.jsx"
+import Interest from "./Interest.jsx"
 import './App.css'
 
 function App() {
@@ -8,13 +10,11 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        {/* <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-      </div>
-      
       <Info />
+      <main>
+        <About />
+        <Interest />
+      </main>
     </div>
   )
 }
